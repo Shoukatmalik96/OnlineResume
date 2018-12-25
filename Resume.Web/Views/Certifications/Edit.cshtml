@@ -1,0 +1,15 @@
+@model Resume.Entities.Certification
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form action="/Certifications/Edit" method="post">
+  <input type="hidden" name="ID" value="@Model.ID" />
+
+  <label>Certification Name</label>
+  <input name="certificationName" value="@Model.certificationName" />
+  <br />
+  <Button>Save</Button>
+</form>

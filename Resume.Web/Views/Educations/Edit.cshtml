@@ -1,0 +1,32 @@
+@model Resume.Entities.Education
+@{
+  ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form action="/Educations/Edit" method="post">
+  <input type="hidden" name="ID" value="@Model.ID" />
+  <label>Institute</label>
+  <input name="Institute"  value="@Model.Institute"/>
+  <br />
+  <label>Program</label>
+  <input name="Program" value="@Model.Program"/>
+  <br />
+  <label>ProgramDescription</label>
+  <input name="ProgramDescription" value="@Model.ProgramDescription" />
+  <br />
+  <label>GPA</label>
+  <input name="GPA" value="@Model.GPA"/>
+  <br />
+  <label>Grade</label>
+  <input name="Grade" value="@Model.GPA"/>
+  <br />
+  <label>From</label>
+  <input name="fromDate" value="@Model.fromDate"/>
+  <br />
+  <label>To</label>
+  <input name="toDate" value="@Model.toDate"/>
+  <br />
+  <Button>Save</Button>
+</form>

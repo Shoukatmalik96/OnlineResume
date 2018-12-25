@@ -1,0 +1,21 @@
+@model Resume.Entities.Award
+@{
+  ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form action="/Awards/Edit" method="post">
+  <input type="hidden" name="ID" value="@Model.ID" />
+  <label>Position</label>
+  <input name="Position" value="@Model.Position"/>
+  <br />
+  <label>Institue</label>
+  <input name="Institute"   value="@Model.Institute"/>
+  <br />
+  <label>Event</label>
+  <input name="Competition"   value="@Model.Competition"/>
+  <br />
+
+  <Button>Save</Button>
+</form>

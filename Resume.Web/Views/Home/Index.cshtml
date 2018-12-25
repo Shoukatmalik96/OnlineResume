@@ -1,0 +1,16 @@
+@model Resume.Web.Models.ResumeViewModels.AwardsViewModel
+@{
+  ViewBag.Title = "Home Page";
+}
+
+@{ Html.RenderPartial("_About");}
+<hr class="m-0">
+@{ Html.RenderPartial("_Experience");}
+<hr class="m-0">
+@{ Html.RenderPartial("_Education");}
+<hr class="m-0">
+@{ Html.RenderPartial("_Skills");}
+<hr class="m-0">
+@{ Html.RenderPartial("_Interests");}
+<hr class="m-0">
+@{ Html.RenderPartial("_Certifications", Model );}

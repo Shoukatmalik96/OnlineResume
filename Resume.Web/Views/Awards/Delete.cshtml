@@ -1,0 +1,16 @@
+@model Resume.Entities.Award
+@{
+  ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h2>Are you Sure you want to Delete this Record !</h2>
+
+<form action="/Awards/Delete" method="post">
+  
+  <input name="ID" value="@Model.ID" />
+  <br />
+
+  <Button>Save</Button>
+</form>
