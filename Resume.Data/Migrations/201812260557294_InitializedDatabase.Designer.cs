@@ -7,13 +7,13 @@ namespace Resume.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class EditAwareEntity : IMigrationMetadata
+    public sealed partial class InitializedDatabase : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(EditAwareEntity));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitializedDatabase));
         
         string IMigrationMetadata.Id
         {
-            get { return "201812251115033_EditAwareEntity"; }
+            get { return "201812260557294_InitializedDatabase"; }
         }
         
         string IMigrationMetadata.Source

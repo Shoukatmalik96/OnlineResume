@@ -197,7 +197,9 @@
   <ItemGroup>
     <Content Include="Content\css\resume.css" />
     <Content Include="Content\css\resume.min.css" />
+    <Content Include="Content\css\style.css" />
     <Content Include="Content\img\profile.jpg" />
+    <Content Include="Content\js\Index.js" />
     <Content Include="Content\js\resume.js" />
     <Content Include="Content\js\resume.min.js" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap-grid.css" />
@@ -1723,6 +1725,7 @@
     <Content Include="Views\Educations\Create.cshtml" />
     <Content Include="Views\Educations\Edit.cshtml" />
     <Content Include="Views\Educations\Delete.cshtml" />
+    <Content Include="Views\Home\GoogleSingIn.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

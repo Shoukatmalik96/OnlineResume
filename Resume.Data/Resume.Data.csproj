@@ -48,17 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201812250943206_addedEntities.cs" />
-    <Compile Include="Migrations\201812250943206_addedEntities.Designer.cs">
-      <DependentUpon>201812250943206_addedEntities.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812251115033_EditAwareEntity.cs" />
-    <Compile Include="Migrations\201812251115033_EditAwareEntity.Designer.cs">
-      <DependentUpon>201812251115033_EditAwareEntity.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812251820547_editAgain.cs" />
-    <Compile Include="Migrations\201812251820547_editAgain.Designer.cs">
-      <DependentUpon>201812251820547_editAgain.cs</DependentUpon>
+    <Compile Include="Migrations\201812260557294_InitializedDatabase.cs" />
+    <Compile Include="Migrations\201812260557294_InitializedDatabase.Designer.cs">
+      <DependentUpon>201812260557294_InitializedDatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,14 +67,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812250943206_addedEntities.resx">
-      <DependentUpon>201812250943206_addedEntities.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812251115033_EditAwareEntity.resx">
-      <DependentUpon>201812251115033_EditAwareEntity.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812251820547_editAgain.resx">
-      <DependentUpon>201812251820547_editAgain.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812260557294_InitializedDatabase.resx">
+      <DependentUpon>201812260557294_InitializedDatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

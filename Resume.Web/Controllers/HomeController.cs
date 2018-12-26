@@ -36,5 +36,10 @@ namespace Resume.Web.Controllers
 
       return View();
     }
+
+        public ActionResult GoogleSingIn()
+        {
+            return View();
+        }
   }
 }

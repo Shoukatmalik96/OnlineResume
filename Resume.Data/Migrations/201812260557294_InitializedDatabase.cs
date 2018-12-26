@@ -3,7 +3,7 @@ namespace Resume.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class addedEntities : DbMigration
+    public partial class InitializedDatabase : DbMigration
     {
         public override void Up()
         {
@@ -30,7 +30,7 @@ namespace Resume.Data.Migrations
                     {
                         ID = c.Int(nullable: false, identity: true),
                         Position = c.String(),
-                        Institue = c.String(),
+                        Institute = c.String(),
                         Competition = c.String(),
                     })
                 .PrimaryKey(t => t.ID);
@@ -49,7 +49,7 @@ namespace Resume.Data.Migrations
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
-                        Institue = c.String(),
+                        Institute = c.String(),
                         Program = c.String(),
                         ProgramDescription = c.String(),
                         GPA = c.Single(nullable: false),
